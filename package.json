@@ -1,0 +1,23 @@
+{
+    "fekit_extension_command_name":"cssdiff",
+    "name": "fekit-extension-cssdiff",
+    "version": "0.1.0",
+    "description": "CSS 文件 Diff",
+    "dependencies": {
+        "css": "2.2.1",
+        "css-isolate": "0.0.3"
+    },
+    "main": "index.js",
+    "bin": "index.js",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:EdwonLim/fekit-extension-cssdiff.git"
+    },
+    "author": "Edwon.Lim <edwon.lim@gmail.com>",
+    "license": "BSD",
+    "scripts":{
+        "postinstall":"node ./scripts/postinstall.js",
+        "preuninstall":"node ./scripts/preuninstall.js"
+    }
+}
